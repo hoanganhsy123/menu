@@ -1,0 +1,29 @@
+.navbar {
+    width: 1200px;
+    overflow: hidden;
+    background-color: rgb(20, 19, 19);
+    padding: 15px;
+
+}
+.navbar button {
+    overflow: hidden;
+    color: white;
+}
+.subnav {
+    margin-right: 2px;
+    float: left;
+    overflow: hidden;
+
+}
+.subnav .subnavbtn {
+    border: none;
+    outline: none;
+    background-color: rgb(15, 14, 14);
+}
+.subnav-content {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}

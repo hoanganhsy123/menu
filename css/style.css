@@ -1,0 +1,50 @@
+
+.wrap {
+    width: auto;
+    /* padding: 20px; */
+}
+.menu {
+    background-color: gray;
+    overflow: hidden;
+    padding: 20px;
+}
+.menu ul ul {
+    display: none;
+    width: 800px;
+    margin-left: 40px;
+    background-color: red;
+}
+.menu ul {
+    list-style: none;
+    padding-bottom : 15px;
+}
+.menu ul li {
+    text-align: center;
+    width: 150px;
+    float: left;
+    margin-right: 2px;
+    position: relative;
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 24px;
+    color: rgb(15, 14, 14);
+}
+
+.menu ul ul li {
+    margin-bottom: 2px;
+    text-align: left;
+    float: left;
+    z-index: 999;
+}
+.menu ul li:hover > ul{
+    display: block;
+    position: absolute;
+    top: 26px;
+    left: -40px;
+}
+.menu ul li a:hover{
+    background-color: rgb(231, 35, 45);
+}
+
